@@ -1,0 +1,62 @@
+provider,product_url,success_rate,proxy,stealth,captcha_solver,cost_avg,sub_plan,sub_cost,cost_formula,cost_notes,config,urls_accessed,urls_evaluated
+bro,https://getbro.ws/,0.8350,TRUE,TRUE,FALSE,0.0274,Basic,0,,calculated from responses,"{
+    ""enable_proxy"": true,
+    ""rotate_proxy"": true,
+    ""proxy_tier"": ""basic"",
+    ""proxy_policy"": ""full"",
+    ""country"": ""US""
+}",334,400
+browserless,https://www.browserless.io/feature/browsers-as-a-service,0.7550,TRUE,TRUE,FALSE,0.0542,Prototyping,35,0.00125 * 17340 / 400,credit based,"{
+    ""proxy"": ""residential"",
+    ""proxySticky"": true,
+    ""proxyLocaleMatch"": true,
+    ""humanlike"": true,
+    ""captcha"": false,
+    ""launch"": {
+        ""headless"": true,
+        ""humanlike"": true,
+        ""blockAds"": true,
+        ""blockConsentModals"": true
+    }
+}",302,400
+browserbase,https://www.browserbase.com/solutions/browser-agents,0.7975,TRUE,TRUE,FALSE,0.0887,Startup,99,( 0.1 * (473/60) +10 * 3.468 ) / 400,,"{
+    ""proxies"": true,
+    ""browserSettings"": {
+        ""blockAds"": true,
+        ""solveCaptchas"": false
+    }
+}",319,400
+browseruse,https://browser-use.com/stealth-browsers,0.7975,TRUE,TRUE,TRUE,0.0231,Dev,29,( 0.02 * (810/60) + 5 * 1.792 ) / 400,,"{
+    ""country"": ""us"",
+    ""stealth"": ""service_default"",
+    ""requested_mode"": ""advanced_stealth"",
+    ""proxy"": ""browser_use_residential_default""
+}",319,400
+firecrawl,https://www.firecrawl.dev/interact,0.7350,TRUE,TRUE,FALSE,0.0359,Hobby,19,0.0038 * 3780 / 400,credit based,"{
+    ""mode"": ""browser_sandbox_cdp"",
+    ""network_location"": ""service_default"",
+    ""proxy"": ""basic""
+}",294,400
+hyperbrowser,https://www.hyperbrowser.ai/browser-sessions,0.6325,TRUE,TRUE,FALSE,0.0577,Startup,30,( 0.1 * (811/60) + 10 * 2.172 ) / 400,,"{
+    ""useStealth"": true,
+    ""useUltraStealth"": false,
+    ""useProxy"": true,
+    ""proxyCountry"": ""US"",
+    ""region"": ""us"",
+    ""solveCaptchas"": false,
+    ""adblock"": true,
+    ""trackers"": true,
+    ""annoyances"": true,
+    ""acceptCookies"": true
+}",253,400
+obscura,https://github.com/h4ckf0r0day/obscura,0.3950,TRUE,TRUE,FALSE,0.0499,,,( 0.02 * (464/60) + 8 * 2.477 ) / 400,estimation: cheap cpu instance + regular proxy (8$ per gb),"{
+        ""engine"": ""obscura"",
+        ""build_features"": [
+            ""render"",
+            ""stealth""
+        ],
+        ""stealth"": true,
+        ""use_proxy"": true
+}",158,400
+playwright,https://github.com/microsoft/playwright,0.3625,TRUE,FALSE,FALSE,0.0499,,,( 0.02 * (433/60) + 8 * 2.477 ) / 400,estimation: cheap cpu instance + regular proxy (8$ per gb),,145,400
+selenium,https://github.com/seleniumhq/selenium,0.3700,TRUE,FALSE,FALSE,0.0499,,,( 0.02 * (462/60) + 8 * 2.477 ) / 400,estimation: cheap cpu instance + regular proxy (8$ per gb),,148,400
