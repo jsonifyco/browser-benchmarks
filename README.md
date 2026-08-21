@@ -2,7 +2,7 @@
 
 > **An open-source benchmark evaluating how top Browser-as-a-Service (BaaS) providers and open-source frameworks bypass modern anti-bot protections (Cloudflare, DataDome, Akamai) across 400 protected websites.**
 
-[**Read the full detailed blog post here**](#) *(Placeholder)*
+[**Read the full detailed blog post here**](https://getbro.ws/blog/cloud-browsers-benchmark)
 
 ## Overview
 Most scraping and agent benchmarks evaluate UI interaction or high-level reasoning. This repository benchmarks the foundational infrastructure layer: **how effectively dedicated Browser-as-a-Service (cloud browser) providers and open-source browser engines passively bypass modern anti-bot systems.**
